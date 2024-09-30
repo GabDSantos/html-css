@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        col.cnome{
+            background-color: rgba(250, 235, 215, 0.623);
+        }
+        col.cgrupo{
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Emilly</td>
+            <td>N-B</td>
+            <td>18</td>
+            <td>Ilustrador</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Dev-web</td>
+        </tr>
+        <tr>
+            <td>Luiz Guilherme</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Job</td>
+        </tr>
+        <tr>
+            <td>JORGE</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Exercito</td>
+        </tr>
+        <tr>
+            <td>Kaique</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Vagabundo</td>
+        </tr>
+    </table>
+</body>
+</html>
