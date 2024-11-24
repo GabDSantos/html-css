@@ -20,6 +20,20 @@ header{
     background-color: gray;
 }
 
+#burguer{
+    background-color: rgb(36, 36, 36);
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 menu{
     display:block
 }
